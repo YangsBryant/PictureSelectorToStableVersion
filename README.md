@@ -67,7 +67,7 @@ public class PictureSelectorUtil {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == 0x01 && resultCode == RESULT_OK) {
             //返回的数据
-            List<LocalMedia> selectList = com.luck.picture.lib.PictureSelector.obtainMultipleResult(data);
+            List<LocalMedia> selectList = PictureSelector.obtainMultipleResult(data);
         }
     }
 ```
