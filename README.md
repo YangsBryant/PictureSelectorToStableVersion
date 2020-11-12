@@ -2,7 +2,7 @@
 PictureSelector图片选择库的support版本
 
 ## 引入module
-将项目里的picture_library 和 ucrop 两个module拷贝进自己项目即可
+将项目里的picture_library 和 ucrop 两个module拷贝进自己项目
 
 ## 工具类
 ```java
